@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
+import { ButtonLink } from "@/components/ui/button";
 
 const steps = [
   {
@@ -49,7 +49,7 @@ export default function Home() {
               tu tecnica, errores principales y recomendaciones para progresar.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Button>Comenzar analisis</Button>
+              <ButtonLink href="/analisis">Comenzar analisis</ButtonLink>
               <a
                 className="inline-flex min-h-12 items-center justify-center rounded-md border border-slate-300 bg-white px-5 text-sm font-semibold text-ink transition hover:border-slate-400"
                 href="#funcionamiento"
